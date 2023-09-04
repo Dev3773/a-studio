@@ -1,0 +1,12 @@
+.logo {
+  fill: white;
+  cursor: pointer;
+  &:hover, &:focus {
+      fill: var(--button-color);
+      stroke: var(--button-bg-color);
+    }
+}
+
+.header-logo {
+  margin-right: 20rem;
+}

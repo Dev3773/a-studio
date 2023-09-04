@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript</title>
   <!-- Fonts -->
-
+  <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
   <!-- Normalize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
@@ -20,14 +20,23 @@
 <body>
   <!-- Header section -->
   <header class="section header">
-    <div class="container">
-      <h1>Section-header</h1>
+    <div class="container header-container">
       <!-- logo -->
-
+      <!-- <img src="./images/icons/logo.svg" alt="logo"> -->
+      <svg class="logo header-logo" width="128" height="31">
+        <use href="./images/icons/icons.svg#icon-logo">
+        </use>
+      </svg>
       <!-- Navigation -->
-      <nav>
-
+      <nav class="navigation">
+        <ul class="navigation__list list">
+          <li class="navigation__item">Business areas</li>
+          <li class="navigation__item">Featured images</li>
+          <li class="navigation__item">Gear cage</li>
+          <li class="navigation__item">Contact</li>
+        </ul>
       </nav>
+      <button class="navigation__button" type="button">Get template</button>
     </div>
   </header>
 
