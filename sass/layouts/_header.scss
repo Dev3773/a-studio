@@ -1,12 +1,27 @@
 .header {
-  padding-top: 1.5rem;
-  padding-right: 55px;
-  padding-bottom: 1.5rem;
-  padding-left: 14.8125rem;
+  background-color: var(--bg-header-color);
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item:first-child {
+  font-size: 0.8125rem;
+  line-height: 1.53;
+ 
+  margin-right: 3.5rem;
+}
+
+.navigation__item:not(:first-child) {
+font-size: 0.9375rem;
+  line-height: 1.33;
+
+margin-right: 2rem;
 }
