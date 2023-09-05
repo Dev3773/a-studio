@@ -7,6 +7,7 @@ h6,
 p,
 ul {
   margin: 0;
+  padding: 0;
 }
 
 img {
@@ -17,10 +18,9 @@ img {
 
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 
 .list {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }

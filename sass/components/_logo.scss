@@ -1,6 +1,8 @@
 .logo {
   fill: white;
+  transition: var(--animac);
   cursor: pointer;
+
   &:hover, &:focus {
       fill: var(--button-color);
       stroke: var(--button-bg-color);
