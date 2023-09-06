@@ -13,28 +13,37 @@
 }
 
 .navigation__item:first-child {
-  font-size: 0.8125rem;
-  line-height: 1.53;
- 
+  margin-right: 3.5rem;
+}
+
+.navigation__link:first-child {
+  display: inline-block;
   padding-top: 2.1875rem;
   padding-bottom: 2.1875rem;
-  margin-right: 3.5rem;
+
+  font-size: 0.8125rem;
+  line-height: 1.53;
+
   transition: var(--animac);
   cursor: pointer;
 
   &:hover,
   &:focus {
-    color: var(--hover-color);
+  color: var(--hover-color);
     }
 }
 
 .navigation__item:not(:first-child) {
+  margin-right: 2rem;
+}
+
+.navigation__link:not(:first-child) {
   font-size: 0.9375rem;
   line-height: 1.33;
 
   padding-top: 2.125rem;
   padding-bottom: 2.25rem;
-  margin-right: 2rem;
+
   transition: var(--animac);
   cursor: pointer;
 

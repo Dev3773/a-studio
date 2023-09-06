@@ -1,0 +1,26 @@
+.hero {
+  max-width: 90rem;
+  min-height: 44.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 27.5625rem;
+  padding-bottom: 3.75rem;
+
+
+  background-color: var(--bg-img-color);
+  background-image: url(../../images/img-hero/hero-bg-des.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../../images/img-hero/hero-bg-des@2.jpg);
+    }
+}
+
+.hero__box {
+  margin-left: auto;
+  margin-right: auto;
+}
