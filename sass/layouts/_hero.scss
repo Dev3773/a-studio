@@ -3,8 +3,9 @@
   min-height: 44.75rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 27.5625rem;
-  padding-bottom: 3.75rem;
+  padding-top: 27.75rem;
+  padding-bottom: 3.5625rem;
+
 
 
   background-color: var(--bg-img-color);
@@ -21,6 +22,60 @@
 }
 
 .hero__box {
+  max-width: 600px;
+  height: auto;
+  text-align: center;
+  
+  padding-top: 1.25rem;
+  padding-right: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 0.625rem;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0.0625rem;
+}
+
+.hero__caption {
+  font-size: 0.875rem;
+  line-height: 1.42;
+  letter-spacing: 0.125rem;
+  font-weight: 200;
+
+  margin-bottom: 0.0625rem;
+}
+
+.hero__title {
+  font-size: 3.375rem;
+  line-height: 1.1;
+  font-weight: 400;
+
+  margin-bottom: 1.125rem;
+}
+
+.hero__text {
+  font-size: 0.875rem;
+  line-height: 1.42;
+  font-weight: 200;
+}
+
+.hero__icons {
+  max-width: 295px;
+  max-height: 16px;
+
+  margin-right: 40px;
+  margin-left: auto;
+}
+
+.hero__icon {
+  fill: var(--icon-color);
+}
+
+.hero-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-item:not(:last-child) {
+margin-right: 1rem;
 }
