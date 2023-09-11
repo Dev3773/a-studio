@@ -23,3 +23,19 @@
   color: var(--text-second-color);
 }
 
+.specialilation__card {
+  position: relative;
+
+  flex-basis: calc((100% - 16px) / 2);
+  height: 600px;
+}
+
+.specialilation__picture {
+  object-fit: cover;
+}
+
+.specialilation__label {
+  position: absolute;
+}
+
+
