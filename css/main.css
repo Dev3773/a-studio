@@ -103,26 +103,50 @@ img {
   margin-right: auto;
 }
 
-.navigation__button {
-  display: inline-block;
-  min-width: 9.6875rem;
-  min-height: 2.625rem;
-  border-radius: 0.875rem;
+.specialilation__button, .navigation__button {
   background-color: var(--button-bg-color);
   color: var(--button-color);
-  padding: 0.5625rem 1.25rem 0.8125rem;
   font-size: 1rem;
   letter-spacing: 0.025rem;
   line-height: 1.25;
   font-weight: 500;
   text-align: center;
+  border-radius: 0.875rem;
   -webkit-transition: var(--animac);
   transition: var(--animac);
   cursor: pointer;
 }
-.navigation__button:hover, .navigation__button:focus {
+.specialilation__button:hover, .navigation__button:hover, .specialilation__button:focus, .navigation__button:focus {
   background-color: var(--button-color);
   color: var(--button-bg-color);
+}
+
+.navigation__button {
+  display: inline-block;
+  min-width: 9.6875rem;
+  min-height: 2.625rem;
+  padding: 0.5625rem 1.25rem 0.8125rem;
+}
+
+.specialilation__button {
+  width: 9.6875rem;
+  height: 2.625rem;
+  padding-top: 0.3125rem;
+  padding-right: 0.625rem;
+  padding-bottom: 0.3125rem;
+  padding-left: 0.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.specialilation__button:hover .specialilation__icon, .specialilation__button:focus .specialilation__icon {
+  fill: var(--icon-color);
 }
 
 .header {
@@ -322,23 +346,7 @@ img {
   color: var(--text-second-color);
 }
 
-.specialilation__button {
-  display: inline-block;
-  width: 9.6875rem;
-  height: 2.625rem;
-  border-radius: 0.875rem;
-  background-color: var(--button-bg-color);
-  color: var(--button-color);
-  font-size: 16px;
-  letter-spacing: 0.025rem;
-  line-height: 1.25;
-  font-weight: 500;
-  text-align: center;
-  -webkit-transition: var(--animac);
-  transition: var(--animac);
-  cursor: pointer;
-}
-.specialilation__button:hover, .specialilation__button:focus {
-  background-color: var(--button-color);
-  color: var(--button-bg-color);
+.specialilation__icon {
+  margin-right: 0.375rem;
+  fill: var(--button-color);
 }/*# sourceMappingURL=main.css.map */
