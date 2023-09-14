@@ -214,14 +214,14 @@ img {
   padding-top: 27.75rem;
   padding-bottom: 3.5625rem;
   background-color: var(--bg-img-color);
-  background-image: url(../../images/img-hero/hero-bg-des.jpg);
+  background-image: url(../images/img-hero/hero-bg-des.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../../images/img-hero/hero-bg-des@2.jpg);
+    background-image: url(../images/img-hero/hero-bg-des@2.jpg);
   }
 }
 
